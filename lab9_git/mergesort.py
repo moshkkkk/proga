@@ -1,5 +1,9 @@
 from heapq import merge
 
+def merge_sort(m):
+    """Sort list m using merge sort (wrapper)"""
+    return merge_sort2(m)
+
 def merge_sort2(m):
     """Sort list, using two part merge sort"""
     if len(m) <= 1:
@@ -7,9 +11,9 @@ def merge_sort2(m):
     middle = len(m) // 2
     left = m[:middle]
     right = m[middle:]
-    right = merge_sort2(right)
     left = merge_sort2(left)
-    return list(merge(right, left))
+    right = merge_sort2(right)
+    return list(merge(left, right))
 
 def merge_sort4(m):
     """Sort list, using four part merge sort"""
@@ -21,9 +25,9 @@ def merge_sort4(m):
     first = m[:leftMiddle]
     second = m[leftMiddle:middle]
     third = m[middle:rightMiddle]
-    last = m[rightMiddle:]
+    fourth = m[rightMiddle:]
     first = merge_sort4(first)
     second = merge_sort4(second)
     third = merge_sort4(third)
-    last = merge_sort4(last)
-    return list(merge(first, second, third, last))
+    fourth = merge_sort4(fourth)
+    return list(merge(first, second, third, fourth))
