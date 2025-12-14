@@ -3,33 +3,35 @@
 <img width="771" height="442" alt="1" src="https://github.com/user-attachments/assets/9ba4a337-b4e3-43af-9eac-db9207d34453" />
 1) Использовали git status, чтобы узнать на какой ветке находимся
 2) Создали файл sort.c и вставили туда пузырьковую функцию
-<img width="807" height="931" alt="3" src="https://github.com/user-attachments/assets/a56ba48b-1c99-4a13-84fe-bc21ac6ddffe" />
-3) Далее проверили как сейчас выглядит git status
-4) Добавили файл в область add
-5) Снова проверили проверили git status
-6) Закоментили файл в репозиторий
-7) Проверили как сейчас выглядит git status
-8) Проверили log
-9) Добавили комментарий // First modification в sort.c
+
+<img width="807" height="863" alt="3" src="https://github.com/user-attachments/assets/3bf8e1ca-4bee-40ee-a8ef-80e7136e00fd" />
+
+4) Далее проверили как сейчас выглядит git status
+5) Добавили файл в область add
+6) Снова проверили проверили git status
+7) Закоментили файл в репозиторий
+8) Проверили как сейчас выглядит git status
+9) Проверили log
+10) Добавили комментарий // First modification в sort.c
 <img width="773" height="814" alt="4" src="https://github.com/user-attachments/assets/97fbbc30-5254-40ff-96ed-a4619f1a3d51" />
-10) Далее снова делаем git add sort.c и git commit -m "Add first comment", чтобы история была чистой и понятной
+11) Далее снова делаем git add sort.c и git commit -m "Add first comment", чтобы история была чистой и понятной
 <img width="762" height="800" alt="5" src="https://github.com/user-attachments/assets/42160453-f919-4a90-9453-9adf17e243ce" />
-11) Проверили как сейчас выглядит status и журнал log
-12) Доюавили в stage и закоммители последние изменения
-13) Запушили на удаленный репо
-14) Создали новую ветку mybranch
-15) С помощью git switch mybranch, чтобы переключиться на новую ветку
-16) Создали файл с именем file1.txt и своим именем
-17) Добавили файл и закомитили его изменения
+12) Проверили как сейчас выглядит status и журнал log
+13) Доюавили в stage и закоммители последние изменения
+14) Запушили на удаленный репо
+15) Создали новую ветку mybranch
+16) С помощью git switch mybranch, чтобы переключиться на новую ветку
+17) Создали файл с именем file1.txt и своим именем
+18) Добавили файл и закомитили его изменения
 <img width="822" height="844" alt="6" src="https://github.com/user-attachments/assets/91b2dca9-80a7-4ac6-afc1-1f5401344885" />
-18) Использовали git log --oneline --graph, чтобы увидеть, что наша ветка указывает на новый коммит
-19) Вернулись к ветке main
-20) Создали файл file2.txt и закоммитили его
-21) Переключились на ветку mybranch
-22) Файл file2.txt пропал
-23) Использовали git diff mybranch main, чтобы увидеть разницу между двумя ветками
+19) Использовали git log --oneline --graph, чтобы увидеть, что наша ветка указывает на новый коммит
+20) Вернулись к ветке main
+21) Создали файл file2.txt и закоммитили его
+22) Переключились на ветку mybranch
+23) Файл file2.txt пропал
+24) Использовали git diff mybranch main, чтобы увидеть разницу между двумя ветками
 <img width="710" height="798" alt="7" src="https://github.com/user-attachments/assets/72439a77-dfa1-421b-ada9-095686bb2b35" />
-24) Закоммитили и запушили на удаленный репо ветку mybranch
+25) Закоммитили и запушили на удаленный репо ветку mybranch
 .
 .
 .
